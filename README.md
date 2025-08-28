@@ -11,6 +11,7 @@ Repository https://github.com/magesteve/APGWidgetKit with current version **0.1.
 - **APGWidgetWindow** — one-liners to present SwiftUI content in AppKit windows, modal alerts, and sheets (with lightweight window tracking by identifier).
 - **APGWidgetRichTextView** — an AppKit `NSView` hosting a scrollable `NSTextView` for displaying Swift `AttributedString` content with sensible defaults.
 - **APGWidgetLargeButton** — a SwiftUI View displaying oversided button commonly used in Work style windows.
+- **APGWidgetStackedImageView** — a SwiftUI View that layers up to `five images` in a spread formation.
 
 > The code uses `#if canImport(AppKit)` and `#if canImport(SwiftUI)` to keep the package cross-platform friendly. On non-macOS platforms these APIs are currently no-ops/placeholders.
 
@@ -118,17 +119,17 @@ APGWidgetWindow.makeAlertSheet(window: hostWindow) {
 
 ---
 
-### APGLargeButton
+### APGWidgetLargeButton
 
 A capsule-shaped SwiftUI button for **welcome panels, prompts, and onboarding**.
 Supports optional default styling with accent color and keyboard shortcuts.
 
 ### Example
 ```swift
-APGLargeButton(title: "Continue", isDefault: true) {
+APGWidgetLargeButton(title: "Continue", isDefault: true) {
     print("Continue pressed")
 }
-APGLargeButton(title: "Cancel") {
+APGWidgetLargeButton(title: "Cancel") {
     print("Cancel pressed")
 }
 ```
