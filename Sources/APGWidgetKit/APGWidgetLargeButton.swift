@@ -1,5 +1,5 @@
 //
-//  APGLargeButton.swift
+//  APGWidgetLargeButton.swift
 //  APGWidgetKit
 //
 //  Created by Steve Sheets on 2025-05-16
@@ -23,7 +23,7 @@ import SwiftUI
 
 /// A stylized large button rendered in a capsule shape.
 /// Useful for welcome panels, onboarding, or prominent choices.
-public struct APGLargeButton: View {
+public struct APGWidgetLargeButton: View {
 
     // MARK: - Properties
 

@@ -3,7 +3,7 @@
 A Swift package of handy windows, views, and small “widgets” that can drop into any app.
 While **APGWidgetKit** is designed to be cross-platform, the **current** implementations primarily target **macOS (AppKit)**.
 
-Repository https://github.com/magesteve/APGWidgetKit with current version **0.1.0**
+Repository https://github.com/magesteve/APGWidgetKit with current version **0.1.1**
 
 
 ## Highlights
