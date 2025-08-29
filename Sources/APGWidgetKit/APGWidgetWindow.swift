@@ -141,12 +141,14 @@ public final class APGWidgetWindow {
     public static func makeWindow(title: String,
                                   ident: String,
                                   size: CGSize,
+                                  onReuse: (() -> Void)? = nil,
                                   viewMaker: @escaping () -> some View) {
 
 #if canImport(AppKit)
 
         if let existingWindow = activeWindows[ident] {
             existingWindow.makeKeyAndOrderFront(nil)
+            onReuse?()
             return
         }
         
@@ -185,6 +187,20 @@ public final class APGWidgetWindow {
 
     }
 
+    /// Given ident, renames associated window to title.
+    public static func renameWindow(title: String,
+                                    ident: String) {
+    #if canImport(AppKit)
+
+        guard let window = activeWindows[ident] else { return }
+
+        if window.title != title {
+            window.title = title
+        }
+
+    #endif
+    }
+    
 #endif
     
 }
