@@ -26,6 +26,19 @@ public struct APGWidgetIconButton: View {
     
     /// Action to perform when tapped.
     public let action: () -> Void
+    
+    // MARK: - Init
+    
+    /// Initializer
+    public init(title: String,
+         symbolName: String,
+         isSelected: Bool,
+         action: @escaping () -> Void) {
+        self.title = title
+        self.symbolName = symbolName
+        self.isSelected = isSelected
+        self.action = action
+    }
 
     // MARK: - View
     
