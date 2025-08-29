@@ -224,7 +224,13 @@ If you need this inside SwiftUI, you can wrap it with `NSViewRepresentable`.
 
 ---
 
+### Sample Code
+
+The APGExample can be found at [Repository](https://github.com/magesteve/APGExample).
+
+---
+
 ## License
 
-MIT License.
-Created by **Steve Sheets**, 2025.
+[MIT License](LICENSE)
+Created by **Steve Sheets**, 2025
