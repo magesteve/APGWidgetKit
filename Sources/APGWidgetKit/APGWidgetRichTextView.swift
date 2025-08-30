@@ -4,6 +4,8 @@
 //
 //  Created by Steve Sheets on 8/25/25.
 //
+//  MacOS only NSFView to handle Rich Text in scrolling area.
+//
 
 // MARK: - Imports
 

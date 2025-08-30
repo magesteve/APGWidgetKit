@@ -8,7 +8,11 @@
 //  Used in control panels to represent selectable options like tools or sections.
 //
 
+// MARK: - Imports
+
 import SwiftUI
+
+// MARK: - View
 
 /// A reusable icon-style button with a title and symbol, visually styled for selection.
 public struct APGWidgetIconButton: View {

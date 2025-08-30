@@ -8,16 +8,11 @@
 // MARK: - Import
 
 import Foundation
+import SwiftUI
 
 #if canImport(AppKit)
 
 import AppKit
-
-#endif
-
-#if canImport(SwiftUI)
-
-import SwiftUI
 
 #endif
 
@@ -52,8 +47,6 @@ public final class APGWidgetWindow {
     }
     
 
-#if canImport(SwiftUI)
-    
     // MARK: - Public Alert Windows
     
     /// Make an alert displaying SwiftUI view and OK button
@@ -200,8 +193,6 @@ public final class APGWidgetWindow {
 
     #endif
     }
-    
-#endif
     
 }
 

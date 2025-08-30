@@ -8,9 +8,13 @@
 //  If no images are provided, displays the app icon.
 //
 
+// MARK: - Imports
+
 import AppKit
 import SwiftUI
 import Combine
+
+// MARK: - View
 
 /// A view that displays up to five images layered visually in a stack.
 ///

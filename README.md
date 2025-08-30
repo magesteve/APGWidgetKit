@@ -3,7 +3,7 @@
 A Swift package of handy windows, views, and small “widgets” that can drop into any app.
 While **APGWidgetKit** is designed to be cross-platform, the **current** implementations primarily target **macOS (AppKit)**.
 
-Repository https://github.com/magesteve/APGWidgetKit with current version **0.1.3**
+Repository https://github.com/magesteve/APGWidgetKit with current version **0.1.4**
 
 
 ## Highlights
@@ -13,7 +13,7 @@ Repository https://github.com/magesteve/APGWidgetKit with current version **0.1.
 - **APGWidgetLargeButton** — a SwiftUI View displaying oversided button commonly used in Work style windows.
 - **APGWidgetStackedImageView** — a SwiftUI View that layers up to `five images` in a spread formation.
 
-> The code uses `#if canImport(AppKit)` and `#if canImport(SwiftUI)` to keep the package cross-platform friendly. On non-macOS platforms these APIs are currently no-ops/placeholders.
+> The code uses `#if canImport(AppKit)` to keep the package cross-platform friendly. On non-macOS platforms these APIs are currently no-ops/placeholders.
 
 ---
 

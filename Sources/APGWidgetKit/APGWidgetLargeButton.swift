@@ -14,9 +14,6 @@
 // MARK: - Imports
 
 import Foundation
-
-#if canImport(SwiftUI)
-
 import SwiftUI
 
 // MARK: - Class
@@ -68,5 +65,3 @@ public struct APGWidgetLargeButton: View {
         .accessibilityLabel(Text(title))
     }
 }
-
-#endif
