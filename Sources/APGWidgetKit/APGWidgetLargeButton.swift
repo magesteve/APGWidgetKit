@@ -16,7 +16,7 @@
 import Foundation
 import SwiftUI
 
-// MARK: - Class
+// MARK: - View
 
 /// A stylized large button rendered in a capsule shape.
 /// Useful for welcome panels, onboarding, or prominent choices.

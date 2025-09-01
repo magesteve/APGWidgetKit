@@ -59,7 +59,7 @@ public final class APGWidgetWindow {
                                             VStack {
             viewMaker()
             Divider()
-            Button("OK") {
+            Button(APGWidget.ok) {
                 NSApp.stopModal()
             }
             .keyboardShortcut(.defaultAction)

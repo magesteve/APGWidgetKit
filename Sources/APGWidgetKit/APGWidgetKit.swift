@@ -5,5 +5,11 @@
 public class APGWidget {
     
     /// Version information of package
-    public static let version = "0.1.4"
+    public static let version = "0.1.5"
+    
+    /// OK String
+    public static let ok = "OK"
+    
+    /// Arrow SF Symbol String
+    public static let arrow = "arrow.right.circle.fill"
 }
