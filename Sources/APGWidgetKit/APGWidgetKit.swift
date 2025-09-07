@@ -5,7 +5,7 @@
 public class APGWidget {
     
     /// Version information of package
-    public static let version = "0.1.5"
+    public static let version = "0.2.0"
     
     /// OK String
     public static let ok = "OK"
